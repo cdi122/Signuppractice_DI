@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="top"
     android:padding="20dp"
-    android:background="#FFe2ed"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -92,6 +92,11 @@
 
 
     </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"></TextView>
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="top"
     android:padding="20dp"
-    android:background="#FFFF00"
+    android:background="#FFe2ed"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -63,10 +63,11 @@
         android:imeOptions="actionGo"/>
 
     <CheckBox
-        android:layout_width="247dp"
+        android:layout_width="480dp"
         android:layout_height="163dp"
         android:checked="true"
-        android:text="이용약관동의" />
+        android:text="이용약관동의"
+        android:visibility="gone" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -86,6 +87,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개안함"/>
 
 
